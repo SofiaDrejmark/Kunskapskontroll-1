@@ -1,0 +1,53 @@
+html, body {
+    background-color: white;
+}
+
+.header { background-image: linear-gradient(rgba(3, 30, 41, 0.7), 
+    rgba(16, 95, 173, 0.7), rgba(121, 121, 206, 0.7));
+    
+}
+
+li > a:hover {
+    color:white;
+}
+
+
+  .article-main > a:hover,
+  .fact1 > a:hover,
+  .fact2 > a:hover,
+  .fact3 > a:hover {
+    color: rgb(138, 136, 136);
+    background: rgb(224, 241, 238);
+  }
+  
+  p {
+    color: rgb(138, 136, 136);
+  } 
+  
+  a {
+    color: rgb(14, 134, 138);
+  }
+
+  a:active {
+      color: rgb(30, 96, 100);
+  }
+
+  li > a {
+    color: rgb(4, 36, 30);
+}
+
+.button {
+    color: rgb(14, 134, 138);
+    background: white;
+}
+
+.button:hover
+ {
+  color: rgb(138, 136, 136);
+  background: rgb(224, 241, 238);
+}
+
+.button:active {
+    color:white;
+    background:rgb(30, 96, 100)
+}

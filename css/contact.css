@@ -1,0 +1,15 @@
+
+.main-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  padding: 0.5em;
+}
+
+.email {
+
+}
