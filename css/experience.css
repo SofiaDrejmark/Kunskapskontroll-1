@@ -14,22 +14,18 @@ border-bottom: black 1px solid;
   }
 
   .experience3 {
-    
     margin: 5em 10em 5em 10em;
   }
 
   .experience4 {
-   
     margin: 5em 10em 5em 10em;
   }
 
   .experience5 {
-    
     margin: 5em 10em 5em 10em;
   }
 
   .experience6 {
-    
     margin: 5em 10em 5em 10em;
   }
 
@@ -39,4 +35,8 @@ border-bottom: black 1px solid;
 
   img {
     padding-right:0.5em;
+  }
+
+  h1 {
+    margin: 2em;
   }
