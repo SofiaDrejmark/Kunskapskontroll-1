@@ -1,101 +1,97 @@
+.container > section,
+.article-main,
+.article2-main,
+.fact1,
+.fact2,
+.fact3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  .container > div,
-  .article-main, 
-  .article2-main,
-  .fact1,
-  .fact2,
-  .fact3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  } 
-  
-  .container {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-areas: 
-        "h h h h h h h h h h h h"
-        "p p p p p p p c c c c c"
-        "a2 a2 a2 a2 a2 a2 a2 a2 a2 a2 a2 a2"
-        "fa fa fa fa fac fac fac fac fact fact fact fact"
-        "fa fa fa fa fac fac fac fac fact fact fact fact"
-        ". . . f f f f f f . . .";
-  }
-  
-  
-  .header {
-    grid-area: h;
-  }
+.header {
+  grid-area: h;
+}
 
-  .footer {
-    grid-area: f;
-  }
+.footer {
+  grid-area: f;
+}
 
-  .profile-pic {
-    grid-area: p;
-    padding-top: 5.5em;
-  }
-    
-  .fact1 { 
-    grid-area: fa;
-  }
-  
-  .fact2 {
-    grid-area: fac;
-  }
-  
-  .fact3 {
-    grid-area:fact;
-  }
-  
-  .fact1,
-  .fact2,
-  .fact3 {
+.profile-pic {
+  grid-area: p;
+  padding-top: 5.5em;
+}
+
+.fact1 {
+  grid-area: fa;
+}
+
+.fact2 {
+  grid-area: fac;
+}
+
+.fact3 {
+  grid-area: fact;
+}
+
+.fact1,
+.fact2,
+.fact3 {
   padding: 1em;
-  border:rgb(44, 44, 44) 1px solid;
+  border: rgb(44, 44, 44) 1px solid;
   flex-direction: column;
-  }
+}
 
-  .fact1 > p,
-  .fact2 > p,
-  .fact3 > p {
-    padding-bottom: 2em;
-  }
+.fact1 > p,
+.fact2 > p,
+.fact3 > p {
+  padding-bottom: 2em;
+}
 
-  
-  .article-main {
-    flex-direction: column;
-    padding: 5.5em 5em 2em 3em;
-    grid-area: c;
-  }
-  
-  .profile-pic > img {
-    max-width: 250px;
-    position: absolute;
+.article-main {
+  flex-direction: column;
+  padding: 5.5em 5em 2em 3em;
+  grid-area: c;
+}
+
+.profile-pic > img {
+  max-width: 250px;
+  /*  position: absolute;
     left: 200px;
-    top: 100px;
-  }
-  
-  .article-main > a,
-  .fact1 > a,
-  .fact2 > a,
-  .fact3 > a {
-    border:black 2px solid;
-    padding: 0.7em 1em;
-  }
-  
+    top: 100px;*/
+  margin-left: 4em;
+}
+
+.article-main > a,
+.fact1 > a,
+.fact2 > a,
+.fact3 > a {
+  border: black 2px solid;
+  padding: 0.7em 1em;
+}
+
 .article-main > a {
   margin-top: 2em;
 }
 
 .article2-main {
   grid-area: a2;
-  border:black solid 1px;
-  margin:1em;
-  padding: 3em 6em;
+  border: black solid 1px;
+  margin: 1em;
+  padding: 3em 4em;
   flex-direction: column;
 }
 
-
-
-
+@media (min-width: 632px) {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-areas:
+      "h h h h h h h h h h h h"
+      "p p p p p p p c c c c c"
+      "a2 a2 a2 a2 a2 a2 a2 a2 a2 a2 a2 a2"
+      "fa fa fa fa fac fac fac fac fact fact fact fact"
+      "fa fa fa fa fac fac fac fac fact fact fact fact"
+      ". . . f f f f f f . . .";
+  }
+}

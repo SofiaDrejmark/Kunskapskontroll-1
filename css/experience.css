@@ -1,42 +1,24 @@
-  .work-container {
-border-bottom: black 1px solid;
-   
-  }
-  .experience1 {
-    
-    margin: 5em 10em 5em 10em;
-    
-  }
-  
-  .experience2 {
-   
-    margin: 5em 10em 5em 10em;
-  }
+.work-container {
+  border-bottom: black 1px solid;
+}
 
-  .experience3 {
-    margin: 5em 10em 5em 10em;
-  }
+.experience1,
+.experience2,
+.experience3,
+.experience4,
+.experience5,
+.experience6 {
+  margin: 5em 5em 5em 5em;
+}
 
-  .experience4 {
-    margin: 5em 10em 5em 10em;
-  }
+p {
+  padding-bottom: 1.5em;
+}
 
-  .experience5 {
-    margin: 5em 10em 5em 10em;
-  }
+img {
+  padding-right: 0.5em;
+}
 
-  .experience6 {
-    margin: 5em 10em 5em 10em;
-  }
-
-  p {
-    padding-bottom: 1.5em;
-  }
-
-  img {
-    padding-right:0.5em;
-  }
-
-  h1 {
-    margin: 2em;
-  }
+.h1-experience {
+  margin: 2em;
+}

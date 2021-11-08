@@ -1,53 +1,58 @@
-html, body {
-    background-color: white;
+html,
+body {
+  background-color: white;
 }
 
-.header { background-image: linear-gradient(rgba(3, 30, 41, 0.7), 
-    rgba(16, 95, 173, 0.7), rgba(121, 121, 206, 0.7));
-    
+.header {
+  background: linear-gradient(
+    to right,
+    rgb(3, 3, 58),
+    rgb(118, 183, 221),
+    rgb(212, 222, 231)
+  );
 }
 
 li > a:hover {
-    color:white;
+  color: white;
 }
 
+.article-main > a:hover,
+.fact1 > a:hover,
+.fact2 > a:hover,
+.fact3 > a:hover {
+  color: rgb(138, 136, 136);
+  background: rgb(224, 241, 238);
+}
 
-  .article-main > a:hover,
-  .fact1 > a:hover,
-  .fact2 > a:hover,
-  .fact3 > a:hover {
-    color: rgb(138, 136, 136);
-    background: rgb(224, 241, 238);
-  }
-  
-  p {
-    color: rgb(138, 136, 136);
-  } 
-  
-  a {
-    color: rgb(14, 134, 138);
-  }
+p {
+  color: rgb(138, 136, 136);
+}
 
-  a:active {
-      color: rgb(30, 96, 100);
-  }
+a,
+h1,
+h2 {
+  color: rgb(14, 134, 138);
+}
 
-  li > a {
-    color: rgb(4, 36, 30);
+a:active {
+  color: rgb(30, 96, 100);
+}
+
+li > a {
+  color: rgb(4, 36, 30);
 }
 
 .button {
-    color: rgb(14, 134, 138);
-    background: white;
+  color: rgb(14, 134, 138);
+  background: white;
 }
 
-.button:hover
- {
+.button:hover {
   color: rgb(138, 136, 136);
   background: rgb(224, 241, 238);
 }
 
 .button:active {
-    color:white;
-    background:rgb(30, 96, 100)
+  color: white;
+  background: rgb(30, 96, 100);
 }
